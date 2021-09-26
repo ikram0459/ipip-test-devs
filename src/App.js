@@ -21,7 +21,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <CardList devs = {this.state.devs} >
+        <CardList devs = {this.state.devs}>
         </CardList>
       </div>
     );
