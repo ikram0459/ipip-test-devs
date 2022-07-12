@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Component } from 'react';
 import { CardList } from './components/card-list/card-list.component';
+import firebase from './firebase/firebase';
 
 class App extends Component {
   constructor() {
